@@ -28,3 +28,9 @@ and contents are retained within their file category.
 | [videos](videos/) | 4 |
 
 Binary files use Git LFS. See the root README for downloading the full files.
+
+## Release documentation
+
+- [Release 3.26.16 — PDF 2 หน้า](release-notes/Release-3.26.16.pdf) · [Scribehow](https://scribehow.com/page/Release_32616__erHlm0jnTbCKwYGs_Pkz_Q)
+
+[ดูสารบัญ Release ทั้งหมด](../../release-notes/README.md)

@@ -7,12 +7,22 @@
 A version-based collection of selected manual QA work: functional checks, regression scenarios,
 payment flows, data consistency, permissions, and timezone testing.
 
+## Release documentation
+
+เพิ่มเอกสาร Release จาก Scribehow ช่วง **3.26.6–3.26.19** ครบ **13 ฉบับ** พร้อมภาพ **74 ภาพ**
+PDF แยกฉบับอยู่ใต้เวอร์ชันนั้น และมี PDF รวม **67 หน้า** พร้อมสารบัญและบุ๊กมาร์ก
+
+- [สารบัญ Release และ PDF แยกฉบับ](release-notes/README.md)
+- [เปิด PDF รวม](release-notes/REDD-Release-3.26.6-to-3.26.19-Combined.pdf)
+- [ดาวน์โหลด ZIP ทั้งชุด](release-notes/REDD-Release-PDFs-3.26.6-to-3.26.19.zip)
+
 ## Browse the work
 
-**585 original work files · 13 version folders · 53 selected test examples · 4 historical defect examples**
+**585 original QA files · 13 Scribehow release documents · 53 selected test examples · 4 historical defect examples**
 
 | Version | Selected focus | Public test examples |
 | --- | --- | ---: |
+| [v3.26.6](versions/v3.26.6/README.md) | Release documentation from Scribehow | 0 |
 | [v3.26.7](versions/v3.26.7/README.md) | Admin portal regression, language persistence, search, and booking extension | 4 |
 | [v3.26.9](versions/v3.26.9/README.md) | Booking creation, scheduled payments, and payment retry | 3 |
 | [v3.26.10](versions/v3.26.10/README.md) | Booking exports, date filters, activity logs, and vouchers | 4 |

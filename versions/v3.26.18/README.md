@@ -26,3 +26,9 @@ and contents are retained within their file category.
 | [test-logs](test-logs/) | 1 |
 
 Binary files use Git LFS. See the root README for downloading the full files.
+
+## Release documentation
+
+- [Release 3.26.18 — PDF 5 หน้า](release-notes/Release-3.26.18.pdf) · [Scribehow](https://scribehow.com/page/Release_32618__ZdsOMCqNSCC2FfNn1C7UBQ)
+
+[ดูสารบัญ Release ทั้งหมด](../../release-notes/README.md)
