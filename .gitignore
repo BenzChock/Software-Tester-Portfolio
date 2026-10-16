@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+~$*
+*.xlsx
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.mov
+*.mp4
+*.pdf
+*.zip
+.env
+.env.*
+local-archive/
+private/
