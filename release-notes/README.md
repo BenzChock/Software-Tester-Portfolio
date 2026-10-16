@@ -1,12 +1,12 @@
 # Release Documentation
 
-เอกสาร Release จาก Scribehow ช่วง **3.26.6 ถึง 3.26.19** รวม **13 ฉบับ** พร้อมภาพประกอบ **74 ภาพ**
+A release archive for **3.26.6 through 3.26.19**, containing **13 documents** and **74 images**.
 
-- [PDF รวม 65 หน้า พร้อมสารบัญและบุ๊กมาร์ก](REDD-Release-3.26.6-to-3.26.19-Combined.pdf)
-- [ดาวน์โหลด ZIP รวม PDF และไฟล์แยกฉบับ](REDD-Release-PDFs-3.26.6-to-3.26.19.zip)
-- [สารบัญไฟล์และ checksum](source-documents.csv)
+- [Combined 65-page PDF with a table of contents and bookmarks](REDD-Release-3.26.6-to-3.26.19-Combined.pdf)
+- [Download the combined and individual PDFs as a ZIP archive](REDD-Release-PDFs-3.26.6-to-3.26.19.zip)
+- [File catalog and checksums](source-documents.csv)
 
-| เอกสาร | ไฟล์ | หน้า |
+| Document | File | Pages |
 | --- | --- | ---: |
 | Release 3.26.6 | [PDF](../versions/v3.26.6/release-notes/Release-3.26.6.pdf) | 6 |
 | Release 3.26.7 | [PDF](../versions/v3.26.7/release-notes/Release-3.26.7.pdf) | 7 |
@@ -18,18 +18,18 @@
 | Release 3.26.15 | [PDF](../versions/v3.26.15/release-notes/Release-3.26.15.pdf) | 2 |
 | Release 3.26.16 | [PDF](../versions/v3.26.16/release-notes/Release-3.26.16.pdf) | 2 |
 | Release 3.26.17 | [PDF](../versions/v3.26.17/release-notes/Release-3.26.17.pdf) | 4 |
-| Release 3.26.17 เบนซ์ | [PDF](../versions/v3.26.17/release-notes/Release-3.26.17-%E0%B9%80%E0%B8%9A%E0%B8%99%E0%B8%8B%E0%B9%8C.pdf) | 3 |
+| Release 3.26.17 (Benz copy) | [PDF](../versions/v3.26.17/release-notes/Release-3.26.17-%E0%B9%80%E0%B8%9A%E0%B8%99%E0%B8%8B%E0%B9%8C.pdf) | 3 |
 | Release 3.26.18 | [PDF](../versions/v3.26.18/release-notes/Release-3.26.18.pdf) | 5 |
 | Release 3.26.19 | [PDF](../versions/v3.26.19/release-notes/Release-3.26.19.pdf) | 7 |
 
-PDF แยกฉบับอยู่ใน `versions/v3.26.x/release-notes/` ของเวอร์ชันนั้น
-3.26.8 ไม่มี ตามที่เจ้าของยืนยัน
-3.26.9 และ 3.26.10 เป็นเอกสารเดียวกัน จึงเก็บ PDF ชุดเดียวกันไว้ใต้ทั้งสองเวอร์ชัน
-3.26.17 เก็บทั้งฉบับปกติและฉบับเบนซ์
+Individual PDFs are stored in their corresponding `versions/v3.26.x/release-notes/` folders.
+Version 3.26.8 is absent, as confirmed by the owner. Versions 3.26.9 and 3.26.10 share
+one document, so the same PDF is included under both versions. Version 3.26.17 includes
+both the standard document and the Benz copy.
 
-PDF จัดหน้าใหม่จากข้อความและภาพต้นฉบับ โดยไม่ได้สรุปหรือเขียนเนื้อหา Release ใหม่
-ตัดเมนูเว็บออกและปรับภาพให้พอดีกับหน้ากระดาษ
-ชื่อคู่มือย่อยที่เป็นการ์ดอ้างอิงยังอยู่ แต่ไม่ได้เปิดขยายและรวมคู่มือย่อยทุกเล่ม
-PDF และ ZIP ใช้ Git LFS สำหรับจัดเก็บไฟล์ไบนารี
+The PDFs preserve the original release text and images in a reformatted page layout.
+Web navigation and controls have been removed, and images have been scaled to fit the page.
+Linked sub-guides remain references and have not been expanded into the archive.
+PDF and ZIP files use Git LFS.
 
-จัดเก็บจาก Scribehow วันที่ 16 ตุลาคม 2026
+Archived on 16 October 2026.

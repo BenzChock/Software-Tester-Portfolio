@@ -29,7 +29,7 @@ Binary files use Git LFS. See the root README for downloading the full files.
 
 ## Release documentation
 
-- [Release 3.26.17 — PDF 4 หน้า](release-notes/Release-3.26.17.pdf)
-- [Release 3.26.17 เบนซ์ — PDF 3 หน้า](release-notes/Release-3.26.17-%E0%B9%80%E0%B8%9A%E0%B8%99%E0%B8%8B%E0%B9%8C.pdf)
+- [Release 3.26.17 — PDF, 4 pages](release-notes/Release-3.26.17.pdf)
+- [Release 3.26.17 (Benz copy) — PDF, 3 pages](release-notes/Release-3.26.17-%E0%B9%80%E0%B8%9A%E0%B8%99%E0%B8%8B%E0%B9%8C.pdf)
 
-[ดูสารบัญ Release ทั้งหมด](../../release-notes/README.md)
+[Browse all release documents](../../release-notes/README.md)

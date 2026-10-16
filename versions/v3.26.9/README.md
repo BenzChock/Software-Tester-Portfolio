@@ -29,8 +29,8 @@ Binary files use Git LFS. See the root README for downloading the full files.
 
 ## Release documentation
 
-- [Release 3.26.9 - 3.26.10 — PDF 8 หน้า](release-notes/Release-3.26.9-to-3.26.10.pdf)
+- [Release 3.26.9 - 3.26.10 — PDF, 8 pages](release-notes/Release-3.26.9-to-3.26.10.pdf)
 
-เอกสารต้นฉบับครอบคลุมทั้ง 3.26.9 และ 3.26.10 เป็นฉบับเดียวกัน
+One source document covers both 3.26.9 and 3.26.10.
 
-[ดูสารบัญ Release ทั้งหมด](../../release-notes/README.md)
+[Browse all release documents](../../release-notes/README.md)

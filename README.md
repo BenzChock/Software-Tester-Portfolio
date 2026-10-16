@@ -1,20 +1,21 @@
-# REDD · QA / Software Tester Portfolio
+# QA / Software Tester Portfolio
 
-ผลงานด้าน Software QA ของ **BenzChock** จากการทำงานที่ **REDD** จัดเรียงตามเวอร์ชันของงานเดิม
-พอร์ตนี้นำเสนอตัวอย่างการออกแบบกรณีทดสอบ การเปรียบเทียบผลที่คาดหวังกับผลจริง
-การทดสอบซ้ำ และการบันทึกข้อบกพร่อง โดยสรุปข้อมูลให้เหมาะกับการเผยแพร่
+A portfolio of manual software QA work by **BenzChock**, organized by application version.
+The collection includes test case design, expected and actual results, regression checks,
+historical defect reports, and release documentation.
 
-A version-based collection of selected manual QA work: functional checks, regression scenarios,
-payment flows, data consistency, permissions, and timezone testing.
+Selected examples cover booking and payment flows, data consistency, permissions,
+reporting, and timezone behavior.
 
 ## Release documentation
 
-เพิ่มเอกสาร Release จาก Scribehow ช่วง **3.26.6–3.26.19** ครบ **13 ฉบับ** พร้อมภาพ **74 ภาพ**
-PDF แยกฉบับอยู่ใต้เวอร์ชันนั้น และมี PDF รวม **65 หน้า** พร้อมสารบัญและบุ๊กมาร์ก
+The release archive covers **3.26.6–3.26.19** and contains **13 documents** with **74 images**.
+Individual PDFs are stored under their corresponding versions. A **65-page combined PDF**
+includes a clickable table of contents and bookmarks.
 
-- [สารบัญ Release และ PDF แยกฉบับ](release-notes/README.md)
-- [เปิด PDF รวม](release-notes/REDD-Release-3.26.6-to-3.26.19-Combined.pdf)
-- [ดาวน์โหลด ZIP ทั้งชุด](release-notes/REDD-Release-PDFs-3.26.6-to-3.26.19.zip)
+- [Release index and individual PDFs](release-notes/README.md)
+- [View the combined PDF](release-notes/REDD-Release-3.26.6-to-3.26.19-Combined.pdf)
+- [Download the complete PDF archive](release-notes/REDD-Release-PDFs-3.26.6-to-3.26.19.zip)
 
 ## Browse the work
 
@@ -83,9 +84,9 @@ original executions used synthetic data. The original attachments, including sou
 
 ## Original work files
 
-ไฟล์ต้นฉบับครบ **585 ไฟล์** อยู่ใน repo นี้แล้ว โดยแยกประเภทภายใต้เวอร์ชันเดิม
-มีภาพ **447 ไฟล์** วิดีโอ **71 ไฟล์** Excel **34 ไฟล์** CSV **26 ไฟล์** PDF **3 ไฟล์**
-TXT **2 ไฟล์** และ HTML **2 ไฟล์** เนื้อหาไฟล์ต้นฉบับไม่ได้ปิดหรือแก้ไขข้อมูล
+All **585 original work files** are included and grouped by file type within their original version:
+**447 images**, **71 videos**, **34 Excel workbooks**, **26 CSV files**, **3 PDFs**,
+**2 text files**, and **2 HTML files**. Original file contents are preserved without redaction.
 
 Original filenames and nested test-case folders are preserved. The six macOS `.DS_Store`
 metadata files are excluded. [file-manifest.csv](file-manifest.csv) records each source path,
@@ -93,12 +94,13 @@ repository path, size, and SHA-256 checksum.
 
 ## Download the complete files
 
-Binary files are stored with Git LFS. To download their full contents, install Git LFS and run:
+Binary files are stored with Git LFS. Copy this repository's HTTPS URL from the **Code** menu,
+then install Git LFS and run the following commands, replacing `<repository-url>` with that URL:
 
 ```sh
 git lfs install
-git clone https://github.com/BenzChock/redd-qa-portfolio.git
-cd redd-qa-portfolio
+git clone <repository-url> qa-portfolio
+cd qa-portfolio
 git lfs pull
 ```
 
