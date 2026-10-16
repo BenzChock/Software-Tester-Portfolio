@@ -31,4 +31,4 @@ Company source material has not been relicensed. No open-source license is added
 The owner also requested publication of the 13 exported Release documents for 3.26.6 through
 3.26.19. These PDFs preserve the source text and 74 images in a reformatted page layout.
 Separate PDFs are filed under their versions. The repository also includes a combined volume,
-a ZIP download, and a source catalog. Linked sub-guides are referenced rather than expanded.
+a ZIP download, and a file catalog. Linked sub-guides are referenced rather than expanded.

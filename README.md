@@ -10,7 +10,7 @@ payment flows, data consistency, permissions, and timezone testing.
 ## Release documentation
 
 เพิ่มเอกสาร Release จาก Scribehow ช่วง **3.26.6–3.26.19** ครบ **13 ฉบับ** พร้อมภาพ **74 ภาพ**
-PDF แยกฉบับอยู่ใต้เวอร์ชันนั้น และมี PDF รวม **67 หน้า** พร้อมสารบัญและบุ๊กมาร์ก
+PDF แยกฉบับอยู่ใต้เวอร์ชันนั้น และมี PDF รวม **65 หน้า** พร้อมสารบัญและบุ๊กมาร์ก
 
 - [สารบัญ Release และ PDF แยกฉบับ](release-notes/README.md)
 - [เปิด PDF รวม](release-notes/REDD-Release-3.26.6-to-3.26.19-Combined.pdf)

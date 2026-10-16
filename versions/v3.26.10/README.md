@@ -32,7 +32,7 @@ Binary files use Git LFS. See the root README for downloading the full files.
 
 ## Release documentation
 
-- [Release 3.26.9 - 3.26.10 — PDF 8 หน้า](release-notes/Release-3.26.9-to-3.26.10.pdf) · [Scribehow](https://scribehow.com/page/Release_3269__32610__x7D3ZTfBTh-l-j8ujoT2Fw)
+- [Release 3.26.9 - 3.26.10 — PDF 8 หน้า](release-notes/Release-3.26.9-to-3.26.10.pdf)
 
 เอกสารต้นฉบับครอบคลุมทั้ง 3.26.9 และ 3.26.10 เป็นฉบับเดียวกัน
 

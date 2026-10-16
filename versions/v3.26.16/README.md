@@ -31,6 +31,6 @@ Binary files use Git LFS. See the root README for downloading the full files.
 
 ## Release documentation
 
-- [Release 3.26.16 — PDF 2 หน้า](release-notes/Release-3.26.16.pdf) · [Scribehow](https://scribehow.com/page/Release_32616__erHlm0jnTbCKwYGs_Pkz_Q)
+- [Release 3.26.16 — PDF 2 หน้า](release-notes/Release-3.26.16.pdf)
 
 [ดูสารบัญ Release ทั้งหมด](../../release-notes/README.md)
