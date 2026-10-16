@@ -1,0 +1,55 @@
+# Occupancy Report — How It Works
+
+A stakeholder-friendly overview of the rebuilt `/reports/occupancy` report.
+
+## Purpose
+
+The report answers: **"Over a given period, how much of our rentable storage capacity was actually rented?"** — broken down by location and unit type, measured both in **square meters** and in **unit count**.
+
+## Inputs
+
+The user selects:
+
+- **Start date** and **End date**
+- **Location** (or All)
+- **Unit type(s)** (optional)
+
+## Core Logic — a day-by-day loop
+
+The report walks **one day at a time** from the start date to the end date. For each day it produces four numbers:
+
+| # | Value | Meaning |
+|---|-------|---------|
+| 1 | **Total Sq. Meters** | Capacity available that day |
+| 2 | **Total Units** | Count of units available that day |
+| 3 | **Booked Sq. Meters** | Capacity actually rented that day |
+| 4 | **Booked Units** | Count of units actually rented that day |
+
+How each day is calculated:
+
+1. **Find the units that existed that day** — only units whose *commissioned* date is on or before the day **and** whose *decommissioned* date is on or after the day. (A unit not yet built, or already retired, doesn't count.)
+2. **Total capacity** — sum the square meters and count of those units → values 1 & 2.
+3. **Keep only the booked ones** — of those units, keep the ones that had an active booking covering that day, then sum their square meters and count → values 3 & 4.
+
+**Key correctness improvement:** occupancy is now measured **per unit**, not per booking. A single unit with two overlapping bookings is counted **once**, and bookings pointing at retired or out-of-scope units are ignored. The previous version counted bookings directly, which could overstate occupancy.
+
+> Square meters is derived from each unit's type pricing (width × length); it is not stored on the unit itself.
+
+## The Final Report — averages
+
+After the loop finishes, the four daily values are **averaged across all days in the range**. Those four averages are the headline result: *average total sqm, average total units, average booked sqm, average booked units.*
+
+## What's shown on screen
+
+- **Two pie/donut charts** — average **Sq. Meters** and average **Units**, each showing the **booked portion within the total** (occupied vs. unbooked).
+- **One bar chart over time** — occupancy **percentage** per time bucket, with two bars per bucket (sqm % and units %). The bucket size adapts to the range length:
+  - **≤ 10 days → by day**
+  - **≤ 30 days → by week**
+  - **> 30 days → by month**
+- **CSV exports** — the existing "Occupancy Bookings" and "Occupancy Audit" downloads are unchanged.
+
+## Debugging tool
+
+A built-in debug log prints **one line per day** to the server log showing that day's four values, plus the unit pool size and the final averages. This makes the day-by-day math fully visible — the report's behavior was previously hard to trace, and this exposes exactly what each date contributed.
+
+Debug logging is **enabled automatically in every environment except production** (driven by the `ENVIRONMENT` variable). It can also be forced on anywhere by adding `debug=1` to the request, e.g. to trace an issue in production.

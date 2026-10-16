@@ -10,7 +10,22 @@ This version contains **4 selected public adaptations** of historical test recor
 - [Test cases](test-cases/cases.md)
 - [Historical test log](test-logs/execution-log.md)
 
-- [Evidence and original-file handling](evidence/README.md)
+- [Original file inventory](evidence/README.md)
 
 Public wording is paraphrased and identifiers and internal links are omitted.
 Recorded statuses describe the source session, not the current application.
+
+## Original work files
+
+**54 original files** are included below. Original filenames, nested case folders,
+and contents are retained within their file category.
+
+| File category | Original files |
+| --- | ---: |
+| [data](data/) | 3 |
+| [screenshots](screenshots/) | 39 |
+| [test-logs](test-logs/) | 1 |
+| [tools](tools/) | 2 |
+| [videos](videos/) | 9 |
+
+Binary files use Git LFS. See the root README for downloading the full files.

@@ -1,34 +1,27 @@
 # Publication scope
 
-## Included
+## Original files
 
-- The existing version grouping, with one folder per supplied version.
-- Selected test scenarios and expected outcomes rewritten with generic fixtures.
-- Paraphrased observations and original historical statuses from matched source rows.
-- Selected historical defect examples with no asserted severity, root cause, or current resolution.
-- Original-file counts by category for each version.
+At the owner's explicit request, this public repository includes all **585 original work files**
+from the supplied QA / Software Tester folder. The files are uploaded unchanged. This includes
+source spreadsheets and data exports, screenshots, recordings, documents, notes, and HTML tools.
+Original data has not been anonymized or redacted.
 
-## Retained locally
+Files are grouped first by version and then by file category. Original filenames and nested case
+folders are retained. Version v3.26.8 was not supplied. The six macOS `.DS_Store` files are excluded.
 
-All 585 original work files are copied into a separate local archive, organized first by the original
-version folder and then by file category. Original filenames and nested case folders are retained there.
-A local-only manifest records the source path, organized path, byte size, and SHA-256 for each file.
-The six macOS `.DS_Store` files are excluded.
+The root `file-manifest.csv` maps each original path to its repository path and records its
+byte size and SHA-256. Binary files use Git LFS. The local source folder remains unchanged.
 
-The public repository does not include original filenames or media assets. This avoids publishing
-customer identifiers and details embedded in screenshots, recordings, workbooks, or data exports.
-It also avoids publishing production receipts, occupancy data, payment details, internal URLs,
-and original document metadata.
+## Curated text examples
 
-## Interpretation
+The repository also contains 53 selected test examples and four historical defect examples.
+These text examples are paraphrased adaptations of matched source rows. They use generic test
+fixtures and omit identifiers and internal links from the text summaries. The original attachments
+are provided separately within the same version and have not been modified to match those adaptations.
 
-Only the selected source rows support the public examples. The public actions describe generic
-fixtures; they are adaptations rather than verbatim original instructions or proof that the original
-data was synthetic. Source sheet and row references identify the historical test record without
-providing access to the private workbook.
-
-Pass, Fail, and Pending describe the recorded session. The application was not retested during
-portfolio preparation. No current availability, security posture, or release-wide result is implied.
+Pass, Fail, and Pending describe the historical source session. The application was not retested
+during portfolio preparation. No current fix status, root cause, or release-wide result is claimed.
 The design-only version has no claimed execution result.
 
-Company source material has not been relicensed. No open-source license is added to this portfolio.
+Company source material has not been relicensed. No open-source license is added to this archive.

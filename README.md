@@ -9,7 +9,7 @@ payment flows, data consistency, permissions, and timezone testing.
 
 ## Browse the work
 
-**13 version folders · 53 selected test examples · 4 historical defect examples**
+**585 original work files · 13 version folders · 53 selected test examples · 4 historical defect examples**
 
 | Version | Selected focus | Public test examples |
 | --- | --- | ---: |
@@ -39,7 +39,15 @@ versions/
     test-cases/cases.md
     test-logs/execution-log.md
     bug-reports/defects.md       # Versions with selected historical failures
-    evidence/README.md          # Original-file categories and local retention
+    evidence/README.md          # Original-file category inventory
+    screenshots/                # Original PNG / JPG evidence
+    videos/                     # Original MOV / MP4 recordings
+    spreadsheets/               # Original Excel workbooks
+    data/                       # Original CSV exports
+    test-templates/             # Original checklist workbooks
+    documents/                  # Original PDFs
+    notes/                      # Original notes
+    tools/                      # Original HTML tools
 ```
 
 The design-only version uses `design/summary.md` in place of test cases and results.
@@ -61,16 +69,32 @@ historical source row's status. A row can remain Pending even when its observati
 No full-release pass rate, performance benchmark, current fix status, or root cause is claimed.
 
 The actions use generic test fixtures for publication. The source notes do not establish that all
-original executions used synthetic data. No original production dataset is distributed here.
+original executions used synthetic data. The original attachments, including source datasets, are included separately in their version folders.
 
-## Public data handling
+## Original work files
 
-ไฟล์ต้นฉบับ **585 ไฟล์** จัดแยกประเภทไว้ในเครื่อง โดยคงเวอร์ชันและโครงสร้างบริบทเดิม
-ชุด Public นี้เผยแพร่เฉพาะตัวอย่างที่เขียนสรุปใหม่ ไม่มีไฟล์ข้อมูลลูกค้า รายงาน production
-ภาพหน้าจอ วิดีโอ เอกสารภายใน ลิงก์งานภายใน หรือไฟล์ Excel ต้นฉบับ
+ไฟล์ต้นฉบับครบ **585 ไฟล์** อยู่ใน repo นี้แล้ว โดยแยกประเภทภายใต้เวอร์ชันเดิม
+มีภาพ **447 ไฟล์** วิดีโอ **71 ไฟล์** Excel **34 ไฟล์** CSV **26 ไฟล์** PDF **3 ไฟล์**
+TXT **2 ไฟล์** และ HTML **2 ไฟล์** เนื้อหาไฟล์ต้นฉบับไม่ได้ปิดหรือแก้ไขข้อมูล
 
-The repository contains curated text examples. Raw spreadsheets, CSV exports, screenshots,
-recordings, documents, notes, and internal tools are retained locally and are not uploaded.
-See [publication scope](PUBLICATION.md) for the selection and retention approach.
+Original filenames and nested test-case folders are preserved. The six macOS `.DS_Store`
+metadata files are excluded. [file-manifest.csv](file-manifest.csv) records each source path,
+repository path, size, and SHA-256 checksum.
+
+## Download the complete files
+
+Binary files are stored with Git LFS. To download their full contents, install Git LFS and run:
+
+```sh
+git lfs install
+git clone https://github.com/BenzChock/redd-qa-portfolio.git
+cd redd-qa-portfolio
+git lfs pull
+```
+
+For individual files, open the file on GitHub and use its download button.
+Source ZIP downloads may contain Git LFS pointers instead of the binary files.
+
+See [publication scope](PUBLICATION.md) for how the originals and curated examples relate.
 
 Prepared from the supplied archive on 16 October 2026.

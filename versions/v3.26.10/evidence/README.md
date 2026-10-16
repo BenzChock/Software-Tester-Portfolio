@@ -1,17 +1,18 @@
-# Evidence handling — v3.26.10
+# Original file inventory — v3.26.10
 
-The original **54 files** remain in the organized local archive under this version.
-Screenshots and recordings can contain customer details, payment information, and internal systems.
-Original workbooks, data exports, documents, notes, and tools are also retained locally.
-These original attachments are not included in the public repository.
+This version includes **54 original work files**, uploaded unchanged at the owner's request.
+Nested case folders are preserved within each category.
 
-| Original file category | Files retained locally |
+| File category | Original files |
 | --- | ---: |
-| data | 3 |
-| screenshots | 39 |
-| test-logs | 1 |
-| tools | 2 |
-| videos | 9 |
+| [data](../data/) | 3 |
+| [screenshots](../screenshots/) | 39 |
+| [test-logs](../test-logs/) | 1 |
+| [tools](../tools/) | 2 |
+| [videos](../videos/) | 9 |
 
-The public test cases and execution summaries are selected, manually rewritten examples.
-They do not reproduce production records, evidence filenames, or internal ticket links.
+The root `file-manifest.csv` maps each original path to its repository path and records the
+byte size and SHA-256. Binary contents are stored through Git LFS.
+
+The selected text test cases and execution summaries are paraphrased portfolio examples.
+The original attachments provide the full source material for this version.
